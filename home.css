@@ -1,28 +1,28 @@
 .container {
   display: grid;
-  grid-template-columns: 20% 77%;
+  grid-template-columns: 5% 18% 63% 5%;
   grid-gap: 3%;
 }
 
 #header {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end : span 2;
   border : solid 1px;
 
 }
 
 #navigation {
-  grid-column-start: 1;
-  border : solid 1px;
-}
-
-#maincontent {
   grid-column-start: 2;
   border : solid 1px;
 }
 
+#maincontent {
+  grid-column-start: 3;
+  border : solid 1px;
+}
+
 #footer {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end : span 2;
   border : solid 1px;
 }
