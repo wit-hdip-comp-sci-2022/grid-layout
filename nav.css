@@ -3,3 +3,13 @@ ul#menu li {
   padding-right: 1em;
   padding-left: 1em;
 }
+
+ul#menu a {
+  text-decoration: none;
+}
+
+#menu li.active a {
+  background: black;
+  padding: .5em 2em .5em 2em;
+  color: white;
+}
