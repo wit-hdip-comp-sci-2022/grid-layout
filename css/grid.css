@@ -7,11 +7,12 @@
 #header {
   grid-column-start: 2;
   grid-column-end: span 2;
+  text-align: center;
 }
 
 #navigation {
   grid-column-start: 2;
-  grid-column-end: span 2;
+  text-align: center;
 }
 
 #maincontent {
