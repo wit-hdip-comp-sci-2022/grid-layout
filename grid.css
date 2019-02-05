@@ -1,7 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: 5% 10% 61% 5%;
-  grid-gap: 3%;
+  grid-template-columns: 5% 88% 5%;
+  grid-gap: 1%;
 }
 
 #header {
@@ -11,10 +11,11 @@
 
 #navigation {
   grid-column-start: 2;
+  grid-column-end: span 2;
 }
 
 #maincontent {
-  grid-column-start: 3;
+  grid-column-start: 2;
   display: grid;
   grid-template-columns: 70% 27%;
   grid-gap: 3%;
@@ -30,5 +31,4 @@
 
 #footer {
   grid-column-start: 2;
-  grid-column-end: span 2;
 }
